@@ -68,6 +68,7 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="images\e_day_isry03-9f18c72c2835399bfcb6099eb6b9b7bd.png" />
     <Content Include="images\Pink_water_lily.jpg" />
     <Content Include="index.html" />
     <Content Include="images\LockScreenLogo.scale-200.png" />

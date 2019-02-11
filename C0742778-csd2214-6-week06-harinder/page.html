@@ -2,35 +2,32 @@
 <html>
 <head>
     <title>Event</title>
-    <script type="text/javascript">
-        function trigger()
-        {
-            document.getElementById("hover").addEventListener("mouseover", popup);
-
-            function popup()
-            {
-                alert("welcome
-                    ");
-            }
+    <script >
+        function MouseRollover(MyImage) {
+            MyImage.src = "images/Pink_water_lily.jpg";
+        }
+        function MouseRollover(MyImage) {
+            MyImage.src = "images/e_day_isry03-9f18c72c2835399bfcb6099eb6b9b7bd.png";
 
         }
+        
+
+
+        
+
+        
     </script>
 
-    <style>
-        p
-
-        {
-            font-size:50px;
-            position:fixed;
-            left:550px;
-            top:300px;
-        }
-    </style>
+   
 
 </head>
-<body onload="trigger();">
-     <p id="hover"> <img src="images/Pink_water_lily.jpg" /></p>
-    
+<body> 
+    <div align="centre">
+        <img src= "images/e_day_isry03-9f18c72c2835399bfcb6099eb6b9b7bd.png" onmouseover="MouseRollover(this)" onmouseout= "MouseOut(this)" />
+    </div>
+     
    
+
+
 </body>
 </html>
